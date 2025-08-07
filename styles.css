@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  border: 2px solid #333;
+  padding: 10px;
+  width: 800px;
+}
+
+.box {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Customize these to test different behaviors */
+.box1 {
+  background: crimson;
+  flex: 1 1 100px;  /* grow, shrink, basis */
+}
+
+.box2 {
+  background: steelblue;
+  flex: 2 1 100px;
+}
+
+.box3 {
+  background: seagreen;
+  flex: 1 2 100px;
+}
